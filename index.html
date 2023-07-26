@@ -17,7 +17,12 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                
               }
+              backgroundImage: {
+                  'team-bg': "url('./images/banner1.png')",
+        
+                  }
             }
           }
         }
@@ -30,6 +35,7 @@
 </head>
 <body class="">
     <header class="">
+      <!-- navbar section -->
         <nav class=" bg-white md:max-w-[1440px] h-auto md:rounded-[600px] md:bg-[#F85559] mx-auto">
           <div class="navbar">
             <div class="navbar-start">
@@ -61,7 +67,8 @@
             </div>
           </div>
         </nav>
-        <section class="banner md:max-w-[1440px] md:mx-auto">
+      <!-- banner section -->
+        <section class="banner md:max-w-[1440px] md:mx-auto w-auto h-auto mx-auto">
           <div class="carousel w-full h-auto mx-auto md:max-w-[1440px] md:max-h-[600px] md:mx-auto md:rounded-[8px] md:mt-14 ">
 
             <div id="slide1" class="carousel-item relative w-full">
@@ -141,9 +148,211 @@
     </header>
 
     <main class="">
-        <section id="" class=""></section>
-        <section id="" class=""></section>
-        <section id="" class=""></section>
+      <!-- card section -->
+        <section id="" class="md:max-w-[1440px] h-auto md:mx-auto my-32 flex justify-center flex-col">
+          <div class="dealofthaday flex flex-col md:flex-row md:justify-between items-center text-[#ffffff] px-10">
+
+            <div class="deal-text mb-12">
+              <h1 class="text-5xl font-extrabold mb-6">Deal of the day</h1>
+            <p class="">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br>Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+
+            <div class="deal-timer mb-10">
+              <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:15;"></span>
+                  </span>
+                  Days 
+                </div>
+                <svg class="mt-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:10;"></span>
+                  </span>
+                  Hours
+                </div>
+                <svg class="mt-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:24;"></span>
+                  </span>
+                  Minutes
+                </div>
+                <svg class="mt-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:47;"></span>
+                  </span>
+                  Seconds
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="cards flex flex-col gap-6 md:justify-between md:flex-row items-center">
+            <div class="card w-[330px] bg-white border-solid shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl w-[95px] h-auto" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-black">12.90$ - 18.85$</h2>
+                <hr class="border-b-2 border-slate-200 w-72">
+                <p>Apples</p>
+                <div class="rating rating-sm rating-half">
+                  <input type="radio" name="rating-6" class="rating-hidden" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                </div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost text-[#F85559]" for="my_modal_7" onclick="modal" >Details</button>
+                  <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                  <div class="modal">
+                    <div class="modal-box">
+                      <h3 class="text-lg font-bold">Hello!</h3>
+                      <p class="py-4">This modal works with a hidden checkbox!</p>
+                    </div>
+                    <label class="modal-backdrop" for="my_modal_7">Close</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card w-[330px] bg-white border-solid shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl w-[120px] h-auto" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-black">12.90$ - 18.85$</h2>
+                <hr class="border-b-2 border-slate-200 w-72">
+                <p>Orang</p>
+                <div class="rating rating-sm rating-half">
+                  <input type="radio" name="rating-6" class="rating-hidden" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                </div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost text-[#F85559]" for="my_modal_7" onclick="modal" >Details</button>
+                  <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                  <div class="modal">
+                    <div class="modal-box">
+                      <h3 class="text-lg font-bold">Hello!</h3>
+                      <p class="py-4">This modal works with a hidden checkbox!</p>
+                    </div>
+                    <label class="modal-backdrop" for="my_modal_7">Close</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card w-[330px] bg-white border-solid shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl w-[118px] h-auto" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-black">12.90$ - 18.85$</h2>
+                <hr class="border-b-2 border-slate-200 w-72">
+                <p>Red Dragon</p>
+                <div class="rating rating-sm rating-half">
+                  <input type="radio" name="rating-6" class="rating-hidden" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                </div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost text-[#F85559]" for="my_modal_7" onclick="modal" >Details</button>
+                  <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                  <div class="modal">
+                    <div class="modal-box">
+                      <h3 class="text-lg font-bold">Hello!</h3>
+                      <p class="py-4">This modal works with a hidden checkbox!</p>
+                    </div>
+                    <label class="modal-backdrop" for="my_modal_7">Close</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card w-[330px] bg-white border-slate-500 border-2 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl w-[118px] h-auto" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-black">12.90$ - 18.85$</h2>
+                <hr class="border-b-2 border-slate-200 w-72">
+                <p>Banana</p>
+                <div class="rating rating-sm rating-half">
+                  <input type="radio" name="rating-6" class="rating-hidden" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-6" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                </div>
+                <div class="card-actions">
+                  <button class="btn btn-ghost text-[#F85559]" for="my_modal_7" onclick="modal" >Details</button>
+                  <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                  <div class="modal">
+                    <div class="modal-box">
+                      <h3 class="text-lg font-bold">Hello!</h3>
+                      <p class="py-4">This modal works with a hidden checkbox!</p>
+                    </div>
+                    <label class="modal-backdrop" for="my_modal_7">Close</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showall flex justify-center">
+            <button class="btn btn-primary bg-[#F85559] border-none mt-12">Show All</button>
+          </div>
+        </section>
+
+      <!-- team section -->  
+        <section id="" class="">
+          <div class="teams team-bg"></div>
+        </section>
+      
+      <!-- banner section -->
+        <section id="" class="">
+
+        </section>
     </main>
 
     <footer class="">
